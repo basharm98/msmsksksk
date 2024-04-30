@@ -1,0 +1,37 @@
+{
+	"name": "STRING SESSION",
+	"description": "تنصيب بوتات استخراج جلسات مقدم من  القويه سورس ",
+	"logo": "https://telegra.ph/file/c53d408e86b7cb77f7caf.png",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+    "env": {
+        "ELHYBA": {
+            "description": "توكن البوت",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "الايبي هاش",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "الايبي ايدي",
+            "value": ""
+        },
+        "OWNER": {
+            "description": "ايدي المطور",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
